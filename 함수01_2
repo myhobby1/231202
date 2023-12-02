@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main(void)
+{
+  char string[80]="applejam";
+  
+  printf("%d\n",str);
+  printf("문자열입력:");
+  scanf("%s",str);
+  printf("입력후문자열:%s\n");
+
+  return 0;
+}
