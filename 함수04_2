@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main(void)
+{
+  int a;
+   double b;
+   char c;
+
+   printf("int형변수의주소:%u",&a);
+   printf("double형변수의주소:%u\n",&b);
+   printf("char형변수의주소:%u\n",&c);
+
+
+   return 0;
+ }
