@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main(void)
+{
+  int a;
+  int *pa;
+
+  pa=&a;
+  *pa=10;
+
+   printf("포인터로arkqtcnffur:%d",*pa);
+   printf("변수명으로a값출력 %d\n",a);
+
+
+   return 0;
+ }
